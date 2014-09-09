@@ -1,0 +1,24 @@
+{
+    "name": "faelp22/common_hash",
+    "description": "Lib for gen hash id and gen hash bcrypt for php 5.3.x",
+    "license": "MIT",
+    "keywords": ["gen","hash","random","id"],
+    "homepage": "https://github.com/faelp22/common_hash",
+    "type": "library",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Isael Sousa",
+            "email": "faelp22@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "common_hash": "src/hdnet"
+        }
+    }
+}
