@@ -1,5 +1,10 @@
 <?php
-namespace common_hash\Libs;
+/**
+ * @author Isael Sousa <faelp22@hotmail.com>
+ * @date 07-08-2014
+ * @ref <http://blog.thiagobelem.net/criptografando-senhas-no-php-usando-bcrypt-blowfish/>
+ **/
+namespace common_hash;
 class Bcrypt {
 	protected static $_saltPrefix = '2a';
 	protected static $_defaultCost = 10;

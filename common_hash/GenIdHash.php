@@ -2,8 +2,8 @@
 /**
  * @author Isael Sousa <faelp22@hotmail.com>
  * @date 07-08-2014
- */
-namespace common_hash\Libs;
+ **/
+namespace common_hash;
 abstract class GenIdHash{
     private static $lowercase = 'abcdefghijklmnopqrstuvwxyz';
     private static $uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
