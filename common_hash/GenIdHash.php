@@ -14,6 +14,7 @@ abstract class GenIdHash{
     private static $ret;
 
     public static function genIdHash($size = 11, $sym = false, $upper = true, $numm = true) {
+        self::$ret = NULL;
         
         self::$characters .= self::$lowercase;
         
